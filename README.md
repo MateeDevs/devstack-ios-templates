@@ -21,4 +21,4 @@ Either run `/templates/install.sh` or copy `/templates/Devstack` into `~/Library
 Defined file header that will be added to all the new files created from Xcode. Ensuring that your real full name is used instead of your system username.
 
 ### How to install
-Either run `/file-header/install.sh` or copy `/file-header/IDETemplateMacros.plist` into `~/Library/Developer/Xcode/UserData`
+Either run `/file-header/install.sh` or copy `/file-header/IDETemplateMacros.plist` into `~/Library/Developer/Xcode/UserData` and replace `___FULLNAME___` with your real full name.
