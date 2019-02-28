@@ -6,7 +6,8 @@ class ___VARIABLE_productName___FlowController: ___VARIABLE_controllerSubclass__
     
     override func start() {
         super.start()
-        let vc = StoryboardScene.___VARIABLE_productName___.initialScene.instantiate()
+        let vc = ___VARIABLE_productName___ViewController.instantiate()
+        vc.flowDelegate = self
         navigationController.viewControllers = [vc]
     }
     

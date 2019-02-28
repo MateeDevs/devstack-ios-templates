@@ -18,6 +18,12 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
 
     // MARK: Stored properties
 
+    // MARK: Inits
+    static func instantiate() -> ___VARIABLE_productName___ViewController {
+        let vc = StoryboardScene.___VARIABLE_productName___.initialScene.instantiate()
+        return vc
+    }
+
     // MARK: Lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()

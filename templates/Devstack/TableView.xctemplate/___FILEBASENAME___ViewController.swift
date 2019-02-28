@@ -13,15 +13,23 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
     weak var flowDelegate: ___VARIABLE_productName___FlowDelegate?
 
     // MARK: ViewModels
-    var viewModel: ___VARIABLE_productName___ViewModel?
+    var viewModel: ___VARIABLE_productName___ViewModel!
 
     // MARK: UI components
 
     // MARK: Stored properties
 
+    // MARK: Inits
+    static func instantiate(viewModel: ___VARIABLE_productName___ViewModel) -> ___VARIABLE_productName___ViewController {
+        let vc = StoryboardScene.___VARIABLE_productName___.initialScene.instantiate()
+        vc.viewModel = viewModel
+        return vc
+    }
+
     // MARK: Lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         registerCells([___VARIABLE_cellClass___.nameOfClass])
     }
 
