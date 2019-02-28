@@ -9,22 +9,22 @@ protocol ___VARIABLE_productName___FlowDelegate: class {
 
 final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubclass___ {
 
-    // MARK: - FlowDelegate
+    // MARK: FlowDelegate
     weak var flowDelegate: ___VARIABLE_productName___FlowDelegate?
 
-    // MARK: - ViewModels
+    // MARK: ViewModels
     var viewModel: ___VARIABLE_productName___ViewModel?
 
-    // MARK: - UI components
+    // MARK: UI components
 
-    // MARK: - Stored properties
+    // MARK: Stored properties
 
-    // MARK: - Lifecycle methods
+    // MARK: Lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-    // MARK: - Default methods
+    // MARK: Default methods
     override func setupViewModel() {
         super.setupViewModel()
     }
@@ -33,6 +33,6 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
         super.setupViewAppearance()
     }
 
-    // MARK: - Additional methods
+    // MARK: Additional methods
 
 }

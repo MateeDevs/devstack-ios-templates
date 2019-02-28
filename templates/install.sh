@@ -10,7 +10,7 @@ if [ ! -d "$directory" ]; then
 fi
 
 echo "Installing templates..."
-for f in *; do
+for f in `dirname "$0"`/Devstack; do
     if [[ -d $f && ! -L $f ]]; then
     		cp -r $f $directory/
     fi

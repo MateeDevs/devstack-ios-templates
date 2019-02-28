@@ -9,5 +9,5 @@ directory="$HOME/Library/Developer/Xcode/UserData"
 echo -n "Enter your full name: "
 read fullname
 echo "Installing file header..."
-cp ./IDETemplateMacros.plist $directory/
+cp `dirname "$0"`/IDETemplateMacros.plist $directory/
 sed -i "" -e "s/___FULLNAME___/$fullname/g" $directory/IDETemplateMacros.plist
