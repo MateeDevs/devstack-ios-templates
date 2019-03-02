@@ -13,7 +13,7 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
     weak var flowDelegate: ___VARIABLE_productName___FlowDelegate?
 
     // MARK: ViewModels
-    var viewModel: ___VARIABLE_productName___ViewModel!
+    private var viewModel: ___VARIABLE_productName___ViewModel!
 
     // MARK: UI components
 
