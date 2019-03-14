@@ -34,8 +34,8 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
         super.setupViewModel()
     }
 
-    override func setupViewAppearance() {
-        super.setupViewAppearance()
+    override func setupUI() {
+        super.setupUI()
     }
 
     // MARK: Additional methods
