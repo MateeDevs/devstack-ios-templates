@@ -1,5 +1,5 @@
-# Xcode templates for QEST iOS DevStack
-This repository contains Xcode templates and other configuration for QEST iOS DevStack.
+# Xcode templates for Matee iOS DevStack
+This repository contains Xcode templates and other configuration for Matee iOS DevStack.
 
 ## Templates
 
