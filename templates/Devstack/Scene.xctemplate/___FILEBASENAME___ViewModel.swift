@@ -10,6 +10,7 @@ final class ___VARIABLE_productName___ViewModel: ___VARIABLE_modelSubclass___, V
     
     init(dependencies: Dependencies) {
         self.dependencies = dependencies
+        super.init()
     }
     
     struct Input {

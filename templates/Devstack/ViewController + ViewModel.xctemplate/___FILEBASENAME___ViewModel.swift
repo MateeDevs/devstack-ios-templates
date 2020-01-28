@@ -9,6 +9,7 @@ final class ___VARIABLE_productName___ViewModel: ___VARIABLE_modelSubclass___, V
     fileprivate let dependencies: Dependencies
     
     init(dependencies: Dependencies) {
+        super.init()
         self.dependencies = dependencies
     }
     
