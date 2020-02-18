@@ -6,21 +6,20 @@ import RxCocoa
 final class ___VARIABLE_productName___ViewModel: ___VARIABLE_modelSubclass___, ViewModelType {
     
     typealias Dependencies = HasNoService
-    fileprivate let dependencies: Dependencies
     
-    init(dependencies: Dependencies) {
-        super.init()
-        self.dependencies = dependencies
-        super.init()
-    }
-    
+    let input: Input
+    let output: Output
+
     struct Input {
     }
     
     struct Output {
     }
     
-    func transform(input: Input) -> Output {
-        return Output()
+    init(dependencies: Dependencies) {
+        self.input = Input()
+        self.output = Output()
+        
+        super.init()
     }
 }
