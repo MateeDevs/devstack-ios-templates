@@ -51,5 +51,9 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
     override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
 
+    override public func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        ___VARIABLE_cellClass___.estimatedHeight
+    }
+
     // MARK: Additional methods
 }
