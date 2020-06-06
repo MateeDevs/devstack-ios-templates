@@ -30,8 +30,8 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
     }
 
     // MARK: Default methods
-    override func setupViewModel() {
-        super.setupViewModel()
+    override func setupBindings() {
+        super.setupBindings()
     }
 
     override func setupUI() {
