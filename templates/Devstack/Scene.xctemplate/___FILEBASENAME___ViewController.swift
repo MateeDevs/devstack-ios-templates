@@ -13,7 +13,7 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
     weak var flowDelegate: ___VARIABLE_productName___FlowDelegate?
 
     // MARK: ViewModels
-    private var viewModel: ___VARIABLE_productName___ViewModel!
+    private var viewModel: ___VARIABLE_productName___ViewModel! // swiftlint:disable:this implicitly_unwrapped_optional
 
     // MARK: UI components
 
