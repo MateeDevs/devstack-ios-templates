@@ -17,7 +17,13 @@ final class ___VARIABLE_productName___ViewModel: ___VARIABLE_modelSubclass___, V
     }
     
     init(dependencies: Dependencies) {
+
+        // MARK: Setup inputs
+
         self.input = Input()
+
+        // MARK: Setup outputs
+
         self.output = Output()
         
         super.init()
