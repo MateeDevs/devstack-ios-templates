@@ -3,14 +3,14 @@
 import UIKit
 import RxSwift
 
-protocol ___VARIABLE_productName___FlowDelegate: class {
+enum ___VARIABLE_productName___ViewControllerFlow {
 
 }
 
 final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubclass___ {
 
-    // MARK: FlowDelegate
-    weak var flowDelegate: ___VARIABLE_productName___FlowDelegate?
+    // MARK: FlowController
+    private weak var flowController: FlowController?
 
     // MARK: ViewModels
 
@@ -19,8 +19,9 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
     // MARK: Stored properties
 
     // MARK: Inits
-    static func instantiate() -> ___VARIABLE_productName___ViewController {
+    static func instantiate(fc: FlowController) -> ___VARIABLE_productName___ViewController {
         let vc = StoryboardScene.___VARIABLE_productName___.initialScene.instantiate()
+        vc.flowController = fc
         return vc
     }
 
@@ -39,5 +40,4 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
     }
 
     // MARK: Additional methods
-
 }

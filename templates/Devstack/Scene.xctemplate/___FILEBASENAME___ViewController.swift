@@ -3,26 +3,27 @@
 import UIKit
 import RxSwift
 
-protocol ___VARIABLE_productName___FlowDelegate: class {
+enum ___VARIABLE_productName___ViewControllerFlow {
 
 }
 
 final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubclass___ {
 
-    // MARK: FlowDelegate
-    weak var flowDelegate: ___VARIABLE_productName___FlowDelegate?
+    // MARK: FlowConroller
+    private weak var flowController: FlowController?
 
     // MARK: ViewModels
-    private var viewModel: ___VARIABLE_productName___ViewModel! // swiftlint:disable:this implicitly_unwrapped_optional
+    private var viewModel: ___VARIABLE_productName___ViewModel?
 
     // MARK: UI components
 
     // MARK: Stored properties
 
     // MARK: Inits
-    static func instantiate(viewModel: ___VARIABLE_productName___ViewModel) -> ___VARIABLE_productName___ViewController {
+    static func instantiate(fc: FlowController, vm: ___VARIABLE_productName___ViewModel) -> ___VARIABLE_productName___ViewController {
         let vc = StoryboardScene.___VARIABLE_productName___.initialScene.instantiate()
-        vc.viewModel = viewModel
+        vc.flowController = fc
+        vc.viewModel = vm
         return vc
     }
 
@@ -41,5 +42,4 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
     }
 
     // MARK: Additional methods
-
 }
