@@ -11,9 +11,9 @@
     	<key>Kind</key>
     	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
     	<key>Description</key>
-    	<string>A struct implementing an UseCase</string>
+    	<string>UseCase</string>
     	<key>Summary</key>
-    	<string>A struct implementing an UseCase</string>
+    	<string>UseCase</string>
     	<key>SortOrder</key>
     	<integer>2</integer>
     	<key>DefaultCompletionName</key>

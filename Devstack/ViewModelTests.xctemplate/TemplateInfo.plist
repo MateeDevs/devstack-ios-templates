@@ -11,9 +11,9 @@
     	<key>Kind</key>
     	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
     	<key>Description</key>
-    	<string>A class implementing tests for a ViewModel</string>
+    	<string>Tests for a ViewModel</string>
     	<key>Summary</key>
-    	<string>A class implementing tests for a ViewModel</string>
+    	<string>Tests for a ViewModel</string>
     	<key>SortOrder</key>
     	<integer>2</integer>
     	<key>DefaultCompletionName</key>

@@ -11,9 +11,9 @@
         <key>Kind</key>
         <string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
         <key>Description</key>
-        <string>Creates a new xib with TableViewCell</string>
+        <string>Xib with a TableViewCell</string>
         <key>Summary</key>
-        <string>Creates a new xib with TableViewCell</string>
+        <string>Xib with a TableViewCell</string>
         <key>SortOrder</key>
         <integer>2</integer>
         <key>DefaultCompletionName</key>

@@ -11,9 +11,9 @@
     	<key>Kind</key>
     	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
     	<key>Description</key>
-    	<string>A class implementing tests for an UseCase</string>
+    	<string>Tests for an UseCase</string>
     	<key>Summary</key>
-    	<string>A class implementing tests for an UseCase</string>
+    	<string>Tests for an UseCase</string>
     	<key>SortOrder</key>
     	<integer>2</integer>
     	<key>DefaultCompletionName</key>

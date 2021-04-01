@@ -11,9 +11,9 @@
         <key>Kind</key>
         <string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
         <key>Description</key>
-        <string>Creates a new storyboard with both ViewController and ViewModel</string>
+        <string>Storyboard with both ViewController and ViewModel</string>
         <key>Summary</key>
-        <string>Creates a new storyboard with both ViewController and ViewModel</string>
+        <string>Storyboard with both ViewController and ViewModel</string>
         <key>SortOrder</key>
         <integer>2</integer>
         <key>DefaultCompletionName</key>

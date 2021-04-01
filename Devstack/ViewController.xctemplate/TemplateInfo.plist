@@ -11,9 +11,9 @@
         <key>Kind</key>
         <string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
         <key>Description</key>
-        <string>A class implementing a ViewController</string>
+        <string>ViewController</string>
         <key>Summary</key>
-        <string>A class implementing a ViewController</string>
+        <string>ViewController</string>
         <key>SortOrder</key>
         <integer>2</integer>
         <key>DefaultCompletionName</key>
