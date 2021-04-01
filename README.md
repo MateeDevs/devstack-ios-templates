@@ -3,7 +3,7 @@
 ## How to install
 Either run `install.sh` or copy `Devstack` folder into `~/Library/Developer/Xcode/Templates`
 
-### Provided templates
+## Provided templates
 | Template                              | Description                                                                   |
 |---------------------------------------|-------------------------------------------------------------------------------|
 | ViewController.xctemplate             | A class implementing a ViewController                                         |

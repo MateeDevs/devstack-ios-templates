@@ -92,7 +92,7 @@
                 <key>Type</key>
                 <string>text</string>
                 <key>Default</key>
-                <string>ViewModel</string>
+                <string>BaseViewModel</string>
                 <key>NotPersisted</key>
                 <true/>
                 <key>Required</key>

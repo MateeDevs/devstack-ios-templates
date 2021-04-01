@@ -1,5 +1,6 @@
 // ___FILEHEADER___
 
+import DomainLayer
 import UIKit
 import RxSwift
 
@@ -52,10 +53,10 @@ final class ___VARIABLE_productName___ViewController: ___VARIABLE_controllerSubc
         return cell
     }
     
-    override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
 
-    override public func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         ___VARIABLE_cellClass___.estimatedHeight
     }
 
